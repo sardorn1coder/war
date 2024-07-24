@@ -1,0 +1,83 @@
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.main {
+    display: inline-grid;
+    margin: 70px auto;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+        'a b'
+        'a b';
+}
+.part {
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+}
+.part1 {
+    background-color: green;
+    grid-area: a;
+}
+.part2 {
+    background-color: gold;
+    grid-area: b;
+}
+.part3 {
+    background-color: gold;
+}
+.war1 {
+    background-color: gold;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 28px;
+
+}
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.war2 {
+    background-color: gold;
+    text-align: center;
+    border-radius: -18px;
+    font-size: 28px;
+}
+.war3 {
+    background-color: gold;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 28px;
+}
+.war4 {
+    background-color: gold;
+    text-align: center;
+    border-radius: -18px;
+    font-size: 28px;
+}
+.war5 {
+    background-color: gold;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 28px;
+}
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.youtube {
+    grid-template-columns: 1fr ;
+}
+.btn {
+    font-size: 25px;
+}
